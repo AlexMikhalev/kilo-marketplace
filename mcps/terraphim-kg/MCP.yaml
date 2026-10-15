@@ -9,10 +9,10 @@ description: >-
   tools; inspect requested tools and keep approval enabled. Previewing an
   editor-exported JSON file alone does not register an active role graph.
 author: terraphim
-url: https://github.com/terraphim/terraphim-clients/releases/tag/terraphim_mcp_server-v1.21.22-rc.1
+url: https://github.com/terraphim/terraphim-clients/releases/tag/terraphim_mcp_server-v1.21.22-rc.2
 category: search
 prerequisites:
-  - Verified terraphim_mcp_server-v1.21.22-rc.1 executable; this is a prerelease
+  - Verified terraphim_mcp_server-v1.21.22-rc.2 executable; this is a prerelease
   - Explicit selected/default role in project .terraphim/config.json with separate authored concept and read-only corpus directories; request that role in each tool call
   - Configured local settings directory containing settings.toml with initialized=true, explicit default_data_path and a memory storage profile; use explicit local-only roles to avoid default remote-backed configuration
   - Explicit writable server data directory; settings and data paths below are directories, not files
